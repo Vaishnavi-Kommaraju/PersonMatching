@@ -12,10 +12,10 @@ The objective of this project is to retrieve the photos that belong to a certain
 Since the PIPA dataset is large in size, we haven't added it to this repo. Please download the tar files from [here](https://people.eecs.berkeley.edu/~nzhang/piper.html) into a data folder. <br>
 
 ## Unzipping tar files for the data
-tar -xvf data/pipa_test.tar <br>
-tar -xvf data/pipa_val.tar <br>
-unzip data/annotations.zip <br>
-tar -xvf data/pipa_leftover.tar <br>
+tar -xvf pipa_test.tar <br>
+tar -xvf pipa_val.tar <br>
+unzip annotations.zip <br>
+tar -xvf pipa_leftover.tar <br>
 
 or run the shell script as: sh unzip_script.sh <br>
 
